@@ -6,6 +6,15 @@
   "image":"mcr.microsoft.com/vscode/devcontainers/universal:latest",
 
   "remoteUser": "codespace",
-  "overrideCommand": false
+  "overrideCommand": false,
+
+  "customization":{
+    "vscode":{
+      "extensions":["Github.copilot"]
+    }
+  },
+  "codespaces":{
+    "openFiles":["codespace.md"]
+  }
   
 }
